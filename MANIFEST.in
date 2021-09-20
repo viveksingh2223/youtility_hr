@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include youtility_hr *.css
+recursive-include youtility_hr *.csv
+recursive-include youtility_hr *.html
+recursive-include youtility_hr *.ico
+recursive-include youtility_hr *.js
+recursive-include youtility_hr *.json
+recursive-include youtility_hr *.md
+recursive-include youtility_hr *.png
+recursive-include youtility_hr *.py
+recursive-include youtility_hr *.svg
+recursive-include youtility_hr *.txt
+recursive-exclude youtility_hr *.pyc
